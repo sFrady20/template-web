@@ -6,7 +6,7 @@ export type ComponentProps = {} & DetailedHTMLProps<
   HTMLDivElement
 >;
 
-const Component = (props: ComponentProps) => {
+export default function Component(props: ComponentProps) {
   const { children, className, ...rest } = props;
 
   return (
@@ -14,6 +14,4 @@ const Component = (props: ComponentProps) => {
       {children}
     </div>
   );
-};
-
-export default Component;
+}
