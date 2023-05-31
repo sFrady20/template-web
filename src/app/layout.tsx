@@ -3,9 +3,9 @@ import "~/global.css";
 
 export const metadata = {
   title: {
-    default: "Web app",
+    default: "Web template",
   },
-  description: "A web app generated using @sfrady20/template-web",
+  description: "A website generated using @sfrady20/template-web",
 };
 
 export default function RootLayout({
